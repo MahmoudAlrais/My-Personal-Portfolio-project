@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #e6e6e6;
+  color: #555;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.header {
+  background-color: #365ed6;
+  height: 8vh;
+  width: 100%;
+}
+
+.main {
+  /* background-color: beige; */
+  height: 100%;
+  width: 75%;
+  text-align: center;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.exchange-form {
+  height: 50%;
+  margin: auto 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exchange-submit input {
+  width: 8rem;
+  height: 3rem;
+  vertical-align: baseline;
+  border-radius: 1rem;
+  background-color: #86a0e3;
+  color: #365ed6;
+  font-weight: bold;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+.exchange-submit input:hover {
+  color: #86a0e3;
+  background-color: #365ed6;
+}
+
+
+.footer {
+  background-color: #253c81;
+  height: 16vh;
+  width: 100%;
+}
+
+.swap-icon {
+  cursor: pointer;
+}
+
+.swap-icon img {
+  width: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 100%;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  margin-left: 1rem;
+  color: white;
+}
+
+.footer-text {
+  position: relative;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+}
