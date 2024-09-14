@@ -39,7 +39,12 @@ body {
   height: 50%;
   margin: auto 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+.exchange-submit {
+  margin: 0 auto;
 }
 
 .exchange-submit input {
@@ -47,16 +52,16 @@ body {
   height: 3rem;
   vertical-align: baseline;
   border-radius: 1rem;
-  background-color: #86a0e3;
-  color: #365ed6;
+  background-color: #b1ddab;
+  color: #6b7770;
   font-weight: bold;
   font-size: 110%;
   cursor: pointer;
 }
 
 .exchange-submit input:hover {
-  color: #86a0e3;
-  background-color: #365ed6;
+  color: #b1ddab;
+  background-color: #6b7770   ;
 }
 
 
@@ -94,5 +99,21 @@ body {
   left: 40%;
   color: white;
   font-weight: 400;
-  font-style: italic;
+  font-style: italic; 
+}
+
+.exchange-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2.5rem 0;
+}
+
+.exchange-input select, .exchange-input input {
+  width: 45%;
+  border-radius: 10px;
+}
+
+.swap-currency {
+  margin: 0 auto;
 }
